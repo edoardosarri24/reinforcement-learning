@@ -6,7 +6,7 @@ The code does not necessarily need to be executed. If you’re only interested i
 ---
 
 # Install
-Clone the repository and install the requirements:
+Clone the repository and install the requirements. This line were tested for osx-arm64.
 
 ```bash
 git clone https://github.com/edoardosarri24/Reinforcement-learning.git
