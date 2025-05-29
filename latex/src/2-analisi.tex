@@ -1,0 +1,42 @@
+\chapter{Analisi}
+Gli ambienti in cui si muove l'agente sono definiti in Gymnasium \cite{gym}, una libreria Python open source ideata per sviluppare algoritmi di Reinforcement learning.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Cart Pole}
+\label{sec:cartpole}
+Il primo ambiente utilizzato è stato Cart Pole \cite{cartpole}. L'obiettivo dell'agente in questo contesto è quello di tenere in equilibrio una barra posta su un carrello e soggetta alla forza di gravità.
+
+Ci sono due versioni di Cart Pole. Quella utilizzata in questo progetto è \texttt{CartPole-v1}.
+
+\subsection{Descrizione}
+L'action space dell'ambiente è composto da due azioni: muovere il carrello verso sinistra è rappresentato con uno zero; muoverlo verso destra con un 1.
+
+L'observation space è definito da quattro variabili: la posizione e la velocità del carrello, l'angolo e la velocità angolare della barra.
+
+Per ogni azione eseguita all'interno dell'episodio, l'agente ottiene una reward di +1.
+
+\subsection{Obiettivo}
+L'episodio termina quando la barra supera i $\pm12^\circ$ di inclinazione o se la posizione del carrello supera un range di $\pm2{,}4$. Inoltre l'episodio finisce in maniera automatica quando vengono superate le 500 iterazioni.
+
+L'obiettivo è raggiungere una reward stabile di almeno 475 punti per episodio.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lunar Lander}
+\label{sec:lunalander}
+Il secondo ambiente utilizzato è stato Lunar Lander \cite{lunarlander}. L'agente in questo caso è una navicella, dotata di motore principale e laterale, che deve atterrare in un preciso spazio nell'ambiente.
+
+Ci sono due versioni di Lunar Lander, una discreta e una continua: nella prima i motori sono sempre accesi alla massima potenza; nella seconda abbiamo un valore che ci indica la potenza emessa. La versione utilizzata in questo progetto è quella discreta.
+
+\subsection{Descrizione}
+L'action space dell'ambiente è composto da quattro azioni: non fare niente, attivare il motore centrale, quello destro o quello sinistro.
+
+L'observation space è definito da otto variabili: le coordinate della navicella in due dimensioni, la sua velocità lineare in due dimensioni, il suo angolo, la velocità angolare e due booleani che indicano l'appoggio di una gamba sul terreno.
+
+Le reward possono diminuire e aumentare all'interno di un episodio a seconda se l'agente è più o meno vicino rispetto alla zona di atterraggio, alla velocità dell'agente e alla sua inclinazione. Inoltre ottiene 10 punti per ogni gamba che poggia a terra, diminuisce di 0,03 punti per ogni frame dove è in azione un motore laterale e di 0,3 per ogni frame in cui è in azione quello principale; riceve ancora $\pm$100 punti per un atterraggio o un crash.
+
+È interessante notare che quando si importa l'ambiente si possono settare la velocità del vento, la forza di gravità e il rumore sulla potenza dei motori.
+
+\subsection{Obiettivo}
+L'episodio termina quando la navicella ha un crash o se esce dai limiti del box che la contiene.
+
+L'obiettivo è raggiungere una reward stabile di almeno 200 punti per episodio.

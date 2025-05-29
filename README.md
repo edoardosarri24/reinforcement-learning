@@ -1,7 +1,8 @@
 # Overview
+
 This repository contains a project on Reinforcement Learning. The CartPole and LunarLander environments from Gymnasium were solved using the REINFORCE algorithm.
 
-The code does not necessarily need to be executed. If you’re only interested in the results, you can simply refer to the report provided in the `relazione.pdf` file.
+The code does not necessarily need to be executed. If you’re only interested in the results, you can simply refer to the report provided in the `report.pdf` file.
 
 ---
 

@@ -1,0 +1,26 @@
+\chapter{Introduzione}
+In questo primo capitolo viene spiegata l’organizzazione del progetto.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Main}
+Il main del progetto è rappresentato dal file \texttt{main.py}. Inizialmente era stato valutato l'uso di un Jupyter notebook, ma il kernel di Jupyter non funziona bene con gli ambienti di Gymnasium, in particolare con quelli che usano ambienti grafici come Pygame. L'addestramento dell'agente procedeva senza troppi problemi, ma quando si andava a visualizzare l'agente, Pygame andava in crash.
+
+\myskip
+
+Questo documento è pensato per non far eseguire il main a chi è interessato solo ai risultati. Ogni risultato loggato su W\&B \cite{wandb} (framework usato durante tutto il progetto per tracciare gli esperimenti) o esperimento eseguito è riassunto in questa relazione. Con questa idea i vari file \texttt{.py} sono utili non per capire cosa è stato fatto, ma come è stato fatto.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Moduli Python}
+Le funzioni chiamate in \texttt{main.py} sono importate da più moduli:
+\begin{itemize}
+    \item \texttt{reinforce.py} \\
+        Contiene la funzione che implementa l'algoritmo REINFORCE.
+    \item \texttt{myModel.py} \\
+        Contiene le reti neurali usate nel processo di addestramento dell'agente.
+    \item \texttt{core.py} \\
+        Contiene le funzioni fondamentali richiamate dall'algoritmo REINFORCE
+    \item \texttt{sweep.py} \\
+        Contiene il codice usato per implementare lo sweep per ricercare i migliori iperparametri in Cart Pole.
+    \item \texttt{utility.py} \\
+        Contiene le funzioni ausiliarie utili nel progetto.
+\end{itemize}
