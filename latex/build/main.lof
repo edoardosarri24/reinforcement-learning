@@ -3,16 +3,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Esperimenti senza baseline.}}{8}{figure.caption.4}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Esperimenti con standardizzazione.}}{9}{figure.caption.5}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ricompense con baseline state-value function.}}{10}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Confronto tra le tecniche.}}{10}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Loss della policy con baseline state-value function.}}{10}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Learning rate circa 1e-5.}}{11}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sweep su $\gamma $ e learning rate.}}{12}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Confronti tra esperimenti.}}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Esperimenti senza baseline.}}{7}{figure.caption.3}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Esperimenti con standardizzazione.}}{8}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ricompense con baseline state-value function.}}{9}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Confronto tra le tecniche.}}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Loss della policy con baseline state-value function.}}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Learning rate circa 1e-5.}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sweep su $\gamma $ e learning rate.}}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Confronti tra esperimenti.}}{11}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Varie architetture.}}{14}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Scheduler StepLR.}}{15}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Risultati con gradient clipping.}}{15}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Varie architetture.}}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Scheduler StepLR.}}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Risultati con gradient clipping.}}{14}{figure.caption.14}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

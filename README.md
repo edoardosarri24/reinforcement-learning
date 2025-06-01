@@ -2,7 +2,7 @@
 
 This repository contains a project on Reinforcement Learning. The CartPole and LunarLander environments from Gymnasium were solved using the REINFORCE algorithm.
 
-The code does not necessarily need to be executed. If you’re only interested in the results, you can simply refer to the report provided in the `report.pdf` file.
+The code does not necessarily need to be executed. If you’re only interested in the results, you can simply refer to the report provided in the [report](report.pdf) file.
 
 ---
 
@@ -23,7 +23,7 @@ Run the main training script with the following command:
 python main.py --env cart_pole|lunar_lander [OPTIONS]
 ```
 
-If you want to run the same experiments, execute the following command:
+If you want to run the same experiments, execute the following command in `src` folder:
 ```bash
 ./script.sh
 ```
